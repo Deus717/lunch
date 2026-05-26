@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рецепти</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="name.png">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="start">
+                <a href="index.html"><img src="goodname.png" style="width:86px; height:57px"></a>
+                
+            </div>
+            <div class="search-container">
+                <input placeholder="Поиск по рецептам" type="text" style="width: 487px;height: 52px; font-size: 18px;" class="search-input">
+                <div class="dropdown-container"><img src="spisok.png" alt="Меню" class="menu-trigger" id="triggerImage">
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="choice.html?id=1">Первые блюда</a>
+                        <a href="choice.html?id=2">Вторые блюда</a>
+                        <a href="choice.html?id=3">Напитки</a>
+                        <a href="choice.html?id=4">Соусы</a>
+                    </div>
+                </div>
+            </div>
+            <div class="second">
+                <a class="header-link" href="#"><img src="people.png"></a>
+            </div>
+        </div>    
+      </header>
+        <div class="cards">
+            <div class="card">
+                <img src="" id="img" class="card_img">
+                <p class="names" id="names"></p>
+                <p class="card_txt" id="sost"></p>
+                <a class="bottom_card" href="index.html" style="display: flex; justify-content: center;">
+                    На главную
+                </a>
+            </div>
+            <div class="recept">
+                <div class="names" style="display:flex; justify-content: center;">Рецепт</div>
+                <div id="text"></div>
+            </div>
+        </div>
+    <footer>
+        <div class="footer-inner">
+            <a href="index.html"><img src="goodname.png" style="width:86px; height:57px"></a>
+        </div>
+    </footer>
+
+    <script src="second.js"></script>
+</body>
+</html>
